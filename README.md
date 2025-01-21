@@ -58,3 +58,34 @@ The dataset, provided by the American Society of Neuroradiology (ASNR) and Kaggl
 1. Clone the repository:
    ```bash
    git clone https://github.com/nachiketdeolankar/lumbar-spine-degenerative-classification.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd lumbar-spine-classification
+
+3. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+
+4. Download the dataset from Kaggle and place it in the data/ directory.
+
+5. Run the main script:
+  ```bash
+  python main.py
+
+---
+
+## **Future Work**
+- **Integration with clinical diagnostic tools**: Exploring real-world applications to assist radiologists in diagnostic workflows.
+- **Expansion to classify other spinal conditions**: Broadening the scope to include additional conditions and severities.
+- **Incorporation of larger datasets**: Improving model generalization and robustness with more diverse datasets.
+- **Exploration of hybrid models**: Combining transformer-based architectures with convolutional neural networks (CNNs) for enhanced feature extraction.
+
+---
+
+## **Acknowledgments**
+- **American Society of Neuroradiology (ASNR)** and **Kaggle** for providing the dataset and organizing the competition.
+- **Visual Transformer (ViT) development team** for their foundational research ([ViT paper](https://arxiv.org/abs/2010.11929)).
+- Special thanks to contributors and collaborators for their insights and support in advancing this project.
+
+  

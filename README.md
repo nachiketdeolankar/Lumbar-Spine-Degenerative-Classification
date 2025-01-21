@@ -70,9 +70,9 @@ The dataset, provided by the American Society of Neuroradiology (ASNR) and Kaggl
 4. Download the dataset from Kaggle and place it in the data/ directory.
 
 5. Run the main script:
-  ```bash
-  python main.py
-  ```
+   ```bash
+   python main.py
+   ```
 ---
 
 ## **Future Work**
